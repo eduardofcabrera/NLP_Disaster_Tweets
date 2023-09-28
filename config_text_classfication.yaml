@@ -1,0 +1,22 @@
+tokenizer: basic_english
+train_csv: nlp-getting-started/train_correct.csv
+val_csv: nlp-getting-started/val_correct.csv
+test_csv: nlp-getting-started/test.csv
+submission_csv: nlp-getting-started/sample_submission.csv
+save_submission_csv: nlp-getting-started/sample_submission_4_freeze.csv
+
+save_vocab: model/vocab.pt
+save_cbow: model/cbow.pt
+save_model: model/text_class_4_freeze_v2.pt
+
+lr: 0.0001
+epochs: 10
+batch_size: 32
+max_norm: 1
+embedding_dim: 100
+hidden_size: 100
+num_layers: 5
+output_dim: 1
+
+inference: False
+freeze: True

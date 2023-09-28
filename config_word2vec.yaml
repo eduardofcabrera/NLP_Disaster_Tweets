@@ -1,0 +1,16 @@
+tokenizer: basic_english
+train_csv: nlp-getting-started/train_correct.csv
+val_csv: nlp-getting-started/val_correct.csv
+test_csv: nlp-getting-started/test.csv
+word2vec_csv: nlp-getting-started/word2vec.csv
+
+save_vocab: model/vocab_2.pt
+save_cbow: model/cbow_2.pt
+
+min_freq: 2
+context_size: 4
+lr: 0.0001
+epochs: 250
+batch_size: 128
+max_norm: 1
+embedding_dim: 100
