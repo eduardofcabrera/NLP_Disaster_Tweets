@@ -17,4 +17,3 @@ flask
 jsonschema
 opencv-python
 transformers
-allennlppip 
